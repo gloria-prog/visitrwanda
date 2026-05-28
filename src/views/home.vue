@@ -1,4 +1,8 @@
 <script setup></script>
  <template>
-<h1 class="text-center  font-bold text-blue-500">TEMBERA URWANDA PROJECT</h1>
+<!--Hero section-->
+<section class="relative h-screen bg-cover bg-center flex items-center justify-center text-white"
+style="background-image: url('/src/assets/img1.jpg');">
+
+</section>
 </template>
