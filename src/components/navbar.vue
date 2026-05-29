@@ -1,7 +1,7 @@
 
  <template>
     <nav class="bg-green-800 text-white px-8 py-2 flex items-center justify-between shadow-lg w-full" >
-        <img src="../assets/images/rwa.jpg" class="h-10 w-10 rounded-full" >
+        <img src="../assets/visit.png" class="h-10 w-10 rounded-full" >
         <span class="text-medium font-bold">TEMBERA URWANDA</span>
         <ul class="flex gap-8 text-sm font-medium w-full px-5 justify-end">
             <li><a href="/" class="hover:text-yellow-300">Home</a></li>
