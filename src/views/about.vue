@@ -2,8 +2,8 @@
         <div class="about">
                 <!-- Hero -->
                 <section class="relative h-72 sm:h-96 bg-cover bg-center flex items-center"
-                        style="background-image: url('https://images.unsplash.com/photo-1508261304559-0a0b2a9a4a8f?auto=format&fit=crop&w=1950&q=80');">
-                        <div class="absolute inset-0 bg-black/45"></div>
+                        style="background-image: url('/src/assets/img1.png');">
+                        <div class="absolute inset-0 bg-black/50"></div>
                         <div class="relative container mx-auto px-6 text-white">
                                 <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold">About Rwanda — People, Progress, Promise</h1>
                                 <p class="mt-3 text-sm sm:text-lg text-green-200 max-w-2xl">A resilient nation honored for its conservation, community-driven growth, and vibrant culture. Learn why Rwanda captivates visitors and researchers alike.</p>

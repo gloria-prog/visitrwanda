@@ -9,6 +9,7 @@ import Images from "../views/images.vue";
 import Videos from "../views/videos.vue";
 import Southern from '../views/southern.vue';
 import Western from '../views/western.vue';
+import Kigali from '../views/kigali.vue';
 const routes = [
   {
     path: '/',
@@ -61,8 +62,11 @@ const routes = [
     name: 'images',
     component: Images
   },
-
-
+  {
+    path: '/kigali',
+    name: 'kigali',
+    component: Kigali
+  },
 
 
 
