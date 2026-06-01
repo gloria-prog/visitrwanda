@@ -2,7 +2,7 @@
     <div class="home">
         <section
             class="relative min-h-screen bg-cover bg-center flex items-center"
-            style="background-image: url('/img2.png');">
+            style="background-image: url('../assets/img5.png');">
             
             <div class="absolute inset-0 bg-black/60"></div>
             <div class="relative container mx-auto px-6 text-center text-white">
@@ -39,16 +39,9 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-2xl font-bold mb-6">Explore Regions</h2>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                    <router-link to="/kigali" class="block rounded overflow-hidden shadow-lg bg-white">
-                        <img src="/img2.png" alt="Kigali" class="w-full h-40 object-cover" />
-                        <div class="p-3">
-                            <h5 class="font-semibold">Kigali</h5>
-                            <p class="text-sm text-gray-600">Modern capital with rich history and culture.</p>
-                        </div>
-                    </router-link>
-
+                    
                     <router-link to="/eastern" class="block rounded overflow-hidden shadow-lg bg-white">
-                        <img src="/img3.png" alt="Eastern" class="w-full h-40 object-cover" />
+                        <img src="../assets/img1.png" alt="Eastern" class="w-full h-40 object-cover" />
                         <div class="p-3">
                             <h5 class="font-semibold">Eastern</h5>
                             <p class="text-sm text-gray-600">Lakes, villages, and authentic local life.</p>
@@ -56,7 +49,7 @@
                     </router-link>
 
                     <router-link to="/western" class="block rounded overflow-hidden shadow-lg bg-white">
-                        <img src="/img4.png" alt="Western" class="w-full h-40 object-cover" />
+                        <img src="../assets/img5.png" alt="Western" class="w-full h-40 object-cover" />
                         <div class="p-3">
                             <h5 class="font-semibold">Western</h5>
                             <p class="text-sm text-gray-600">Lakeside retreats and dramatic landscapes.</p>
@@ -64,12 +57,13 @@
                     </router-link>
 
                     <router-link to="/southern" class="block rounded overflow-hidden shadow-lg bg-white">
-                        <img src="/img5.png" alt="Southern" class="w-full h-40 object-cover" />
+                        <img src="../assets/img5.png" alt="Southern" class="w-full h-40 object-cover" />
                         <div class="p-3">
                             <h5 class="font-semibold">Southern</h5>
                             <p class="text-sm text-gray-600">Rolling hills and agricultural charm.</p>
                         </div>
                     </router-link>
+
                 </div>
             </div>
         </section>
@@ -103,3 +97,11 @@
         </section>
     </div>
 </template>
+
+<script setup>
+// Your component logic goes here if needed
+</script>
+
+<style scoped>
+/* Custom scoped styles can go here */
+</style>
