@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from "../views/home.vue";
 import About from "../views/about.vue";
+import Login from "../components/login.vue";
 import Contact from "../views/contact.vue";
 import Services from "../views/services.vue";
 import Eastern from "../views/eastern.vue";
@@ -10,6 +11,8 @@ import Videos from "../views/videos.vue";
 import Southern from '../views/southern.vue';
 import Western from '../views/western.vue';
 import Kigali from '../views/kigali.vue';
+import Register from '../views/register.vue';
+import Dashboard from '../views/Dashboard/dashboard.vue';
 const routes = [
   {
     path: '/',
@@ -20,6 +23,21 @@ const routes = [
     path: '/about',
     name: 'about',
     component: About
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: Login
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: Register
+  },
+  {
+    path: '/dashboard',
+    name: 'dashboard',
+    component: Dashboard
   },
   {
     path: '/contact',

@@ -37,7 +37,7 @@ const languages = [
             <li><router-link to="/" class="hover:text-yellow-300">{{ t('nav.home') }}</router-link></li>
             <li><router-link to="/about" class="hover:text-yellow-300">{{ t('nav.about') }}</router-link></li>
             <li><router-link to="/services" class="hover:text-yellow-300">{{ t('nav.services') }}</router-link></li>
-            
+            <li><router-link to="/dashboard" class="hover:text-yellow-300">Dashboard</router-link></li>
             <li class="relative group">
                 <button class="hover:text-yellow-300 flex items-center gap-1 px-3 py-1">
                     {{ t('nav.gallery') }} <span>🔽</span>
@@ -81,6 +81,10 @@ const languages = [
                         </button>
                     </li>
                 </ul>
+            </li>
+            <li> <a href="/contacts" class="hover:text-yellow-300">Contacts</a></li>
+            <li><RouterLink to="/Login" class="bg-yellow-400 px-4 py-1 rounded font-semibold hover:bg-yellow-300">Login</RouterLink>
+                
             </li>
         </ul>
     </nav>
