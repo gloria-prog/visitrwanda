@@ -91,7 +91,7 @@
                                         <div class="grid grid-cols-3 gap-4 text-center">
                                                 <div>
                                                         <div class="text-2xl font-extrabold">50+</div>
-                                                        <div class="text-sm">Community Projects</div>
+                                                        <div class="text-sm">Community Projects community projects</div>
                                                 </div>
                                                 <div>
                                                         <div class="text-2xl font-extrabold">10k+</div>
